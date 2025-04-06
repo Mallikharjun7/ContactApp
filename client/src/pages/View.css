@@ -1,0 +1,181 @@
+/* General Styles */
+
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: #252422;
+    /* Soft Beige */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Search Box */
+.formBox {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 60%;
+}
+
+
+
+
+.searchBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #2E2E2E;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 450px;
+}
+
+.search-bar {
+    flex-grow: 1;
+    width: 1000px;
+    padding: 8px 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #2E2E2E;
+}
+
+.searchButton {
+    padding: 8px 15px;
+    background: #eb5e28;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.searchButton:hover {
+    background: #ff7043;
+}
+
+/* Contact Box */
+.contact-box {
+    background-color: #2E2E2E;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 600px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+.viewcontactBox{
+    display: flex;
+}
+
+.linkTag {
+    text-decoration: none;
+    color: #fffcf2;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.Viewprofile-icon {
+    font-size: 2.3rem;
+    margin-bottom: 15px;
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 15px;
+    /* margin: 0 auto 15px; */
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.Viewcontact-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.contact-number {
+    font-size: 14px;
+    color: gray;
+}
+
+/* Buttons */
+.btnBox {
+    display: flex;
+    gap: 10px;
+}
+
+.deletBtn,
+.updateBtnView {
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.deletBtn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.deletBtn:hover {
+    background-color: #a71d2a;
+}
+
+.updateBtnView {
+    background-color: #28a745;
+    color: white;
+}
+.updateBtnView:hover {
+    background-color: #1e7e34;
+} 
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .contact-box {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .btnBox {
+        display: flex;
+        gap: 5px;
+    }
+}
+
+button {
+    background-color: #ffcc00;
+    /* Warm Yellow */
+    color: #333;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #ff7043;
+    /* Peach */
+    transform: scale(1.05);
+}
